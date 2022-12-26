@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">eWoodenFish</string>
-    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_button">Click ME!</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="I_Can_Do_HelloWorld">HelloWorld</string>
+    <string name="empty" />
+    <string name="plus">功德+1</string>
 </resources>

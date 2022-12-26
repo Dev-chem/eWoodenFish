@@ -16,32 +16,51 @@
         android:textColor="?attr/fullscreenTextColor"
         android:keepScreenOn="true"
         android:textStyle="bold"
-        android:textSize="50sp"
+        android:textSize="70sp"
         android:gravity="center"
-        android:text="@string/dummy_content" />
+        android:text="@string/empty" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/plus"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:src="@drawable/anhdpic"/>
 
     <!-- This FrameLayout insets its children based on system windows using
          android:fitsSystemWindows. -->
-    <FrameLayout android:layout_width="match_parent"
+    <FrameLayout
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fitsSystemWindows="true">
 
-        <LinearLayout android:id="@+id/fullscreen_content_controls"
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
             style="@style/Widget.Theme.EWoodenFish.ButtonBar.Fullscreen"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_gravity="bottom|center_horizontal"
             android:orientation="horizontal"
             tools:ignore="UselessParent">
 
-            <Button android:id="@+id/dummy_button"
+            <Button
+                android:id="@+id/dummy_button"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/dummy_button" />
+                android:textSize="60sp"
+                android:textColor="@color/white"
+                android:gravity="center_horizontal"
+                android:text="@string/plus" />
+
 
         </LinearLayout>
+
     </FrameLayout>
 
 </FrameLayout>
